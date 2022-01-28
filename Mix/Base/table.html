@@ -9,7 +9,7 @@
 <body>
     <a href="/index.html">Main page</a>
 
-    <form action="">
+    <form action="page.php" name="form1" method="get">
         First Name:&nbsp;&nbsp;<input type="text" name="fname"><br><br>
         Last Name:&nbsp;&nbsp;<input type="text" name="lname"><br><br>
 
@@ -19,6 +19,23 @@
         <label for="css">CSS</label><br>
         <input type="radio" id="javascript" name="fav_language" value="JavaScript">
         <label for="javascript">JavaScript</label>
+
+        <br><br>
+
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1"> I have a bike</label><br>
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+        <label for="vehicle2"> I have a car</label><br>
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+        <label for="vehicle3"> I have a boat</label>
+
+        <br><br>
+
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" value="Criz"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" value="Taz"><br><br>
+        <input type="submit" value="Submit">
     </form>
 </body>
 </html>
