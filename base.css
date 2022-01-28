@@ -1,0 +1,29 @@
+.bg-dark{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,8,30,0.7),rgba(4,8,30,0.7)),url(assets/blackboy.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.pr1 {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,8,30,0.7),rgba(4,8,30,0.7)),url(assets/back.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.yeet {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,8,30,0.7),rgba(4,8,30,0.7)),url(assets/carback.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
