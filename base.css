@@ -28,6 +28,16 @@
     position: relative;
 }
 
+.pr3 {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,8,30,0.7),rgba(4,8,30,0.7)),url(assets/yellow.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
 .yeet {
     min-height: 100vh;
     width: 100%;
