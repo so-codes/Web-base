@@ -10,42 +10,85 @@
 <body class="input" text="White">
     <a href="/index.html" style="color: cyan">Main page</a>
 
+    <br><br>
+
     <form action="https://github.com/C-Errors" name="form1" method="get">
         First Name:&nbsp;&nbsp;<input type="text" name="fname" maxlength="100" required placeholder="criz"><br><br>
         Last Name:&nbsp;&nbsp;<input type="text" name="lname" maxlength="100" required placeholder="taz"><br><br>
 
-        <input type="radio" id="html" name="fav_language" value="HTML">
-        <label for="html">HTML</label><br>
-        <input type="radio" id="css" name="fav_language" value="CSS">
-        <label for="css">CSS</label><br>
-        <input type="radio" id="javascript" name="fav_language" value="JavaScript">
-        <label for="javascript">JavaScript</label>
-
-        <br><br>
-
-        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
-        <label for="vehicle1"> I have a bike</label><br>
-        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
-        <label for="vehicle2"> I have a car</label><br>
-        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
-        <label for="vehicle3"> I have a boat</label>
-
-        <br><br>
-
         Enter web address:&nbsp;&nbsp;<input type="url" name="web_address" required><br><br>
-
-        <input type="radio" name="category" value="gold" checked="checked"> Gold <br>
-        <input type="radio" name="category" value="silver"> Silver <br>
-        <input type="radio" name="category" value="bronze"> Bronze <br>
-
-        <br><br>
 
         <label for="fname">First name:</label><br>
         <input type="text" id="fname" name="fname" value="Criz"><br><br>
         <label for="lname">Last name:</label><br>
         <input type="text" id="lname" name="lname" value="Taz"><br><br>
 
+        <input type="radio" id="criz" name="fav_name" value="criz">
+        <label for="criz">Criz</label><br>
+        <input type="radio" id="pocky" name="fav_name" value="Pocky">
+        <label for="pocky">Pocky</label><br>
+        <input type="radio" id="syeca" name="fav_name" value="Syeca">
+        <label for="syeca">Syeca</label>
+
+        <br><br>
+
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1">Javascript is amazing</label><br>
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+        <label for="vehicle2">Python is cool</label><br>
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+        <label for="vehicle3">Java not so cool</label>
+
+        <br><br>
+
+        <p>Color: <select name="colors" id="1">
+            <option>Red</option>
+            <option>Blue</option>
+            <option>Green</option>
+            <option>Yellow</option>
+            <option>Black</option>
+            <option>White</option>
+        </select></p>
+
+        <p>Check if pog: <select name="pig" id="2">
+            <optgroup label="pog">
+                <option>Small poggers</option>
+                <option>Medium poggers</option>
+                <option>Large poggers</option>
+                <option>X-Large poggers</option>
+            </optgroup>
+            <optgroup label="notpog">
+                <option>Not Small poggers</option>
+                <option>Not Medium poggers</option>
+                <option>Not Large poggers</option>
+                <option>Not X-Large poggers</option>
+            </optgroup>
+        </select></p>
+
+        <br><br>
+
+        <input type="radio" name="category" value="pog" checked="checked"> Pog <br>
+        <input type="radio" name="category" value="unpog"> Unpog <br>
+        <input type="radio" name="category" value="cool"> Cool <br>
+
+        <br><br>
+
         Comments: <br> <textarea name="comment" id="" cols="50" rows="5"></textarea><br><br>
+
+        <form action="">
+            <p>
+                Copies: <input type="number" name="copies" min="0" max="100" step="1" value="1"> <br>
+                Slider: <input type="range" name="slider" min="0" max="100" step="1" value="1">
+            </p>
+    
+            <p>
+                DOB: <input type="date" name="dob" value="2000-01-01"><br><br>
+                Month: <input type="month" name="month" value="2000-01"><br><br>
+                Week: <input type="week" name="week" value="2000-W01"><br><br>
+                Time: <input type="time" name="time" value="12:00"><br><br>
+            </p>
+        </form>
+
         <input type="submit" value="Send">
         <input type="reset" value="Reset">
     </form>
