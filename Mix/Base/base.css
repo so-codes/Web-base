@@ -1,0 +1,6 @@
+ol {
+    list-style-type: square;
+}
+ol ul{
+    list-style-type: lower-alpha;
+}
