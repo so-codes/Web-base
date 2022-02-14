@@ -1,0 +1,32 @@
+body {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(/assets/kazuha.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+}
+
+a {
+    color: #006699;
+    text-decoration: none;
+}
+a:hover {
+    color: #dd4814;
+    text-decoration: underline;
+}
+a:visited {
+    color: #1d1f1f;
+}
+
+p {
+    color: black;
+    text-align: center;
+}
+
+#h2_mn {
+    color: black;
+    text-align: center;
+}
