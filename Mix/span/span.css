@@ -1,0 +1,43 @@
+/* row_col start */
+
+.main-span {
+  background-image: url(/assets/kazuha.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+  padding-top: 50px;
+}
+
+.table-head {
+  background-image: url(/assets/back.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.head {
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+  background-color: beige;
+}
+
+.base-head {
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+  background-color: rgb(219, 245, 104);
+}
+
+.stuff {
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+  background-color: lightblue;
+}
+
+.mn_th {
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+  background-color: lightgreen;
+}
+
+/* row_col end */
