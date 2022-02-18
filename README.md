@@ -1,8 +1,6 @@
 # Web-base
 html &amp; css base
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/acb1b7b4-11b5-44c1-8b0b-4ec3a0693639/deploy-status)](https://app.netlify.com/sites/base-web/deploys)
-
 Basically a collection of everything :
 
 - Practicals
