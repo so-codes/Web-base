@@ -1,0 +1,51 @@
+.prpr nav {
+  background: gray;
+  text-align: center;
+  word-spacing: 50px;
+  font-size: 20px;
+}
+
+.prpr nav :hover {
+  background: black;
+  color: white;
+}
+
+.prpr aside {
+  width: 37%;
+  float: right;
+  background: gray;
+  margin-top: 50px;
+}
+
+.prpr aside h3 {
+  text-align: center;
+}
+
+.prpr aside p {
+  text-align: center;
+}
+
+.prpr article {
+  background: grey;
+  border-bottom: 5px solid black;
+  width: 60%;
+  height: 40%;
+  border-radius: 5px;
+}
+
+.prpr article h3 {
+  text-align: center;
+}
+
+.prpr article p {
+  text-align: center;
+}
+
+.prpr section {
+  background: white;
+  border-bottom: 5px solid black;
+  width: 60%;
+  height: 10%;
+  border-radius: 5px;
+  margin-left: 200px;
+}
