@@ -1,8 +1,7 @@
 /* Index.html start */
 
 .bg-dark {
-  min-height: 100vh;
-  width: 100%;
+  /* width: 100%; */
   background-image: url(assets/kazuha.png);
   background-repeat: no-repeat;
   background-position: center;
@@ -70,7 +69,7 @@ p {
 /* Index.html end */
 
 .pr1 {
-  min-height: 100vh;
+  /* min-height: 100vh; */
   width: 100%;
   background-image: linear-gradient(rgba(4, 8, 30, 0.7), rgba(4, 8, 30, 0.7)),
     url(assets/back.gif);
@@ -81,7 +80,7 @@ p {
 }
 
 .pr2 {
-  min-height: 100vh;
+  /* min-height: 100vh; */
   width: 100%;
   background-image: linear-gradient(rgba(4, 8, 30, 0.7), rgba(4, 8, 30, 0.7)),
     url(assets/gundam.jpg);
@@ -92,7 +91,7 @@ p {
 }
 
 .pr3 {
-  min-height: 100vh;
+  /* min-height: 100vh; */
   width: 100%;
   background-image: linear-gradient(rgba(4, 8, 30, 0.7), rgba(4, 8, 30, 0.7)),
     url(assets/yellow.jpg);
@@ -103,7 +102,7 @@ p {
 }
 
 .pr5 {
-  min-height: 100vh;
+  /* min-height: 100vh; */
   width: 100%;
   background-image: linear-gradient(rgba(4, 8, 30, 0.7), rgba(4, 8, 30, 0.7)),
     url(assets/itachi.png);
@@ -114,7 +113,7 @@ p {
 }
 
 .yeet {
-  min-height: 100vh;
+  /* min-height: 100vh; */
   width: 100%;
   background-image: linear-gradient(rgba(4, 8, 30, 0.7), rgba(4, 8, 30, 0.7)),
     url(assets/carback.jpg);
@@ -125,7 +124,7 @@ p {
 }
 
 .input {
-  min-height: 100vh;
+  /* min-height: 100vh; */
   width: 100%;
   background-image: linear-gradient(rgba(4, 8, 30, 0.7), rgba(4, 8, 30, 0.7)),
     url(assets/gundam.jpg);
@@ -136,7 +135,7 @@ p {
 }
 
 .list {
-  min-height: 100vh;
+  /* min-height: 100vh; */
   width: 100%;
   background-image: linear-gradient(rgba(4, 8, 30, 0.7), rgba(4, 8, 30, 0.7)),
     url(assets/urban-ninja-anime-art.jpg);
