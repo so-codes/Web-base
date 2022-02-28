@@ -40,6 +40,17 @@
   padding: 10px;
 }
 
+.nav-2 a {
+  color: rgb(221, 40, 64);
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  display: inline-block;
+  margin: 0px;
+  border-radius: 5px;
+  font: arial;
+}
+
 .nav-2 button {
   color: rgb(221, 40, 64);
   text-decoration: none;
@@ -51,4 +62,5 @@
   border-radius: 10px;
   background: rgb(80, 142, 243);
   transition: all 0.5s;
+  box-shadow: 5px 5px 5px rgb(0, 0, 0);
 }
