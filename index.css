@@ -1,16 +1,32 @@
 /* Index.html start */
 
 .bg-dark {
-  /* width: 100%; */
   background-image: url(assets/kazuha.png);
-  background-repeat: no-repeat;
-  background-position: center;
   background-size: cover;
   position: relative;
 }
 
 .bg-dark marquee {
   color: rgb(0, 0, 0);
+}
+
+.index-nav a {
+  color: #dd4814;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px;
+  display: inline-block;
+  margin-left: 50px;
+  border-radius: 5px;
+  background: #f5d17d;
+  transition: all 0.5s;
+  text-align: center;
+}
+
+.index-nav a:hover {
+  text-decoration: none;
+  color: #39f0a0;
 }
 
 .head1 {
@@ -23,9 +39,9 @@
 }
 
 .main-div {
-  position: absolute;
-  top: 51%;
-  left: 100%;
+  position: fixed;
+  top: 55%;
+  left: 107%;
   transform: translate(-50%, -50%);
   width: 80%;
   height: 80%;
@@ -59,8 +75,8 @@ p {
 }
 
 .main-div-2 {
-  position: absolute;
-  top: 11%;
+  position: fixed;
+  top: 16%;
   left: 30%;
 }
 
