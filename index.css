@@ -41,7 +41,7 @@
 .main-div {
   position: fixed;
   top: 55%;
-  left: 107%;
+  left: 106%;
   transform: translate(-50%, -50%);
   width: 80%;
   height: 80%;
@@ -88,6 +88,30 @@ p {
 
 .main-div-2 a:hover {
   color: #dd4814;
+  text-decoration: underline;
+}
+
+.index-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  padding-top: 10px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.index-footer a {
+  color: #dd4814;
+  margin-left: 50px;
+  text-decoration: none;
+}
+
+.index-footer a:hover {
+  color: #39f0a0;
   text-decoration: underline;
 }
 
