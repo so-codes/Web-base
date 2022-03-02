@@ -10,6 +10,10 @@
   color: rgb(0, 0, 0);
 }
 
+.index-nav {
+  float: center;
+}
+
 .index-nav a {
   color: #dd4814;
   text-decoration: none;
@@ -32,7 +36,7 @@
 .head1 {
   color: orangered;
   font-size: 35px;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-weight: bold;
   text-align: center;
   margin-top: 10px;
@@ -49,8 +53,13 @@
   border-radius: 5px;
 }
 
+.main-div p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: black;
+}
+
 .main-div a {
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   color: black;
   text-decoration: none;
 }
@@ -61,7 +70,7 @@
 }
 
 .main-div li {
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   color: black;
 }
 
@@ -81,7 +90,7 @@ p {
 }
 
 .main-div-2 a {
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   color: black;
   text-decoration: none;
 }
@@ -91,15 +100,27 @@ p {
   text-decoration: underline;
 }
 
+.art-div {
+  text-align: center;
+  padding-top: 420px;
+}
+
+.art-div h3 {
+  color: orangered;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+}
+
 .index-footer {
   position: fixed;
   bottom: 0;
-  left: 0;
+  left: -20px;
   width: 100%;
   height: 50px;
   text-align: center;
   padding-top: 10px;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 20px;
   font-weight: bold;
 }
