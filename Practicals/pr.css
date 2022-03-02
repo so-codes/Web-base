@@ -1,0 +1,54 @@
+.pr7 img {
+  width: 100px;
+  height: 100px;
+}
+
+.head p {
+  float: right;
+  padding-right: 1300px;
+}
+
+.first {
+  font-size: 25px;
+}
+
+.nav hr {
+  border-color: #000;
+}
+
+.nav-2 hr {
+  border-color: #000;
+}
+
+.foot hr {
+  border-color: #000;
+}
+
+.nav {
+  background-color: grey;
+}
+.nav-2 {
+  background-color: grey;
+}
+
+.nav a {
+  margin: 50px;
+  color: aliceblue;
+}
+
+.nav-2 a {
+  margin: 50px;
+  color: aliceblue;
+}
+
+.nav a:hover {
+  color: orangered;
+}
+
+.nav-2 a:hover {
+  color: orangered;
+}
+
+.foot-thing a:hover {
+  color: orangered;
+}
