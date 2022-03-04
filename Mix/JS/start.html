@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Base</title>
+    <link rel="stylesheet" href="../JS/script.css" media="screen">
+    <script type="text/javascript" src="../JS/script.js"></script>
+</head>
+
+<body class="script">
+    <h2 align="center" c>Learning js</h2>
+    <script type="text/javascript">
+        document.write("Hello Criz <br>");
+        document.write("poggers");
+
+        document.write("<br> <br>");
+        display();
+
+        document.write("<br> <br>");
+
+        add(5, 10);
+
+        hi();
+    </script>
+
+    <form>
+        <button type="button" value="click" onclick="display()">test</button>
+    </form>
+
+    <h2 align="center">Area of a rectangle</h2>
+
+    <script>
+
+        var length = prompt("Enter the length of the rectangle");
+        var width = prompt("Enter the width of the rectangle");
+
+        area(length, width);
+    </script>
+
+    <script>
+        var l = prompt("Enter the length of the rectangle");
+        var w = prompt("Enter the width of the rectangle");
+    </script>
+    <button type="button" value="click" onclick="area(l , w)">test</button>
+
+    <input type="text" id="txtInput1" placeholder="Enter number 1">
+    <input type="text" id="txtInput2" placeholder="Enter number 2">
+
+    <button type="button" onclick="result();">Get the area</button>
+    <script>
+        function result() {
+            var number1 = document.getElementById("txtInput1").value;
+            var number2 = document.getElementById("txtInput2").value;
+
+            area(number1, number2);
+            back();
+        }
+    </script>
+
+</body>
+
+</html>
