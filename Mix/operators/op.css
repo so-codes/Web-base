@@ -1,0 +1,7 @@
+.opera {
+  background-image: url(/assets/kazuha.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding-top: 50px;
+}
