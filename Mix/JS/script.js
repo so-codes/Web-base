@@ -13,6 +13,8 @@ function area(length, width) {
     const area = length * width;
     document.write("Area of rectangle: " + area);
 
+    document.write("<br> <br>");
+
 }
 
 function back() {
