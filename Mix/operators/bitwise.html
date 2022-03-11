@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- 
+    Bitwise operators
+
+    It performs bitwise operations on the operands.
+
+    1- & Bitwise AND
+    2- | Bitwise OR
+    3- ^ Bitwise XOR
+    4- ~ Bitwise NOT
+    5- << Bitwise left shift
+    6- >> Bitwise right shift
+    7- >>> Bitwise right shift with zero fill
+
+    1/2 Byte = 4 bits
+    1 Byte = 8 bits
+    1 Kilobyte = 1024 Bytes
+    1 Megabyte = 1024 Kilobytes
+    1 Gigabyte = 1024 Megabytes
+    1 Terabyte = 1024 Gigabytes
+
+    Return type: number
+
+    For & - truth table
+    A B Y
+    0 0 0
+    0 1 0
+    1 0 0
+    1 1 1
+
+    For | - truth table
+    A B Y
+    0 0 0
+    0 1 0
+    1 0 1
+    1 1 1
+
+    For ^ - truth table
+    A B Y
+    0 0 0
+    0 1 1
+    1 0 1
+    1 1 0
+
+    For ~ - truth table
+    A B Y
+    0 0 1
+    0 1 1
+    1 0 0
+    1 1 0
+
+    For << 2 - truth table
+    A B Y
+    0 0 0
+    0 1 0
+    1 0 2
+    1 1 1
+
+    For >> 2 - truth table
+    A B Y
+    0 0 1
+    0 1 1
+    1 0 0
+    1 1 0
+
+    For >>> 2 - truth table
+    A B Y
+    0 0 1
+    0 1 1
+    1 0 0
+    1 1 0
+
+-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operators</title>
+    <link rel="stylesheet" href="/Mix/operators/op.css">
+    <script src="/Mix/operators/oper.js"></script>
+</head>
+
+<body class="opera">
+
+    <script type="text/javascript">
+        var a, b;
+
+        a = 12, b = 8;
+
+        document.write("a = " + a);
+        document.write("<br>b = " + b);
+
+        document.write("<br> <br>");
+
+        document.write("a & b = " + (a & b));          // 1100 & 1000 = 1000 = 8 since both 1 and 0 are there in both the numbers
+        document.write("<br>a | b = " + (a | b));      // 1100 | 1000 = 1100 = 12 since either 1 or 0 is there in either of the numbers
+        document.write("<br>a ^ b = " + (a ^ b));      // 1100 ^ 1000 = 0100 = 4 since only 1 is there in both the numbers (any but not all)
+        document.write("<br>~a = " + (~a));            // ~1100 = -12 = -13 since -1 is there in the number
+        document.write("<br>~b = " + (~b));            // ~1000 = -8 = -9 since -1 is there in the number
+        document.write("<br>a << 2 = " + (a << 2));    // 1100 << 2 = 1200 = 48 since 1100 shifted by 2 bits is 1200
+        document.write("<br>a >> 2 = " + (a >> 2));    // 1100 >> 2 = 0011 = 3 since 1100 shifted by 2 bits is 0011
+        document.write("<br>a >>> 2 = " + (a >>> 2));  // 1100 >>> 2 = 0011 = 3 since 1100 shifted by 2 bits is 0011
+
+    </script>
+
+    <br><br>
+
+
+    <input type="text" id="txtInput1" placeholder="Value of a">
+    <input type="text" id="txtInput2" placeholder="Value of b">
+
+    <button type="button" onclick="result();">Do it</button>
+    <script>
+        function result() {
+            var a = document.getElementById("txtInput1").value;
+            var b = document.getElementById("txtInput2").value;
+
+            operate_bitwise(a, b);
+            document.write("<br> <br>");
+            back();
+        }
+    </script>
+
+</body>
+
+</html>

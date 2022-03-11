@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Logical operator
+
+    1 - && AND - it returns true if both the operands are true
+    2 - || OR  - it returns true if either of the operands are true
+    3 - ! NOT  - it returns true if the operand is false
+
+    It is used to evaluate short circuit evaluation !
+    Return type: boolean
+
+-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operators</title>
+    <link rel="stylesheet" href="/Mix/operators/op.css">
+    <script src="/Mix/operators/oper.js"></script>
+</head>
+
+<body class="opera">
+
+    <script type="text/javascript">
+        var a, b, c;
+
+        a = 5, b = 5, c = 10;
+
+        document.write("a = " + a);
+        document.write("<br>b = " + b);
+        document.write("<br>c = " + c);
+
+        document.write("<br> <br>");
+
+        document.write(" (a == b ) && ( c > b )  = " + ((a == b) && (c > b)));
+        document.write("<br> (a == b ) || ( c > b )  = " + ((a == b) || (c > b)));
+        document.write("<br> (a != b ) || ( c < b )  = " + ((a != b) || (c < b)));
+        document.write("<br> !(a == b )  = " + (!(a == b)));
+
+    </script>
+
+    <br><br>
+
+
+    <input type="text" id="txtInput1" placeholder="Value of a">
+    <input type="text" id="txtInput2" placeholder="Value of b">
+    <input type="text" id="txtInput3" placeholder="Value of c">
+
+    <button type="button" onclick="result();">Do it</button>
+    <script>
+        function result() {
+            var a = document.getElementById("txtInput1").value;
+            var b = document.getElementById("txtInput2").value;
+            var c = document.getElementById("txtInput3").value;
+
+            operate_logical(a, b, c);
+            document.write("<br> <br>");
+            back();
+        }
+    </script>
+
+</body>
+
+</html>

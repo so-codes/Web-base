@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Comparision or relational operators
+1- == Equal to
+2- != Not equal to
+3- > Greater than
+4- < Less than
+5- >= Greater than or equal to
+6- <= Less than or equal to
+
+Return type: boolean
+-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operators</title>
+    <link rel="stylesheet" href="/Mix/operators/op.css">
+    <script src="/Mix/operators/oper.js"></script>
+</head>
+
+<body class="opera">
+
+    <script type="text/javascript">
+        var a, b;
+        a = 20; b = 30;
+
+        document.write("a = " + a);
+        document.write("<br>b = " + b);
+
+        document.write("<br> <br>");
+
+        document.write("a > b " + (a < b));
+        document.write("<br>a < b " + (a > b));
+        document.write("<br>a == b " + (a == b));
+        document.write("<br>a != b " + (a != b));
+        document.write("<br>a >= b " + (a >= b));
+        document.write("<br>a <= b " + (a <= b));
+
+    </script>
+
+    <br><br>
+
+    <input type="text" id="txtInput1" placeholder="Value of a">
+    <input type="text" id="txtInput2" placeholder="Value of b">
+
+    <button type="button" onclick="result();">Do it</button>
+    <script>
+        function result() {
+            var a = document.getElementById("txtInput1").value;
+            var b = document.getElementById("txtInput2").value;
+
+            operate_relat(a, b);
+            back();
+        }
+    </script>
+
+</body>
+
+</html>
