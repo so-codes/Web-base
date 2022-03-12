@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/Mix/operators/op.css">
+</head>
+
+<body class="opera">
+    <a href="/home.html">Home Page</a> <br>
+    <script type="text/javascript">
+        var lang = { first: "HTML", second: "CSS", third: "JavaScript", fourth: "PHP" };
+
+        document.write("lang.first = " + lang.first + "<br>");
+        document.write("lang.second = " + lang.second + "<br>");
+        document.write("lang.third = " + lang.third + "<br>");
+        document.write("lang.fourth = " + lang.fourth + "<br>");
+
+        delete lang.first;
+
+        document.write("<br>");
+        document.write("lang.first = " + lang.first + "<br>");
+    </script>
+</body>
+
+</html>
