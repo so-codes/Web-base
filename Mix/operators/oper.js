@@ -67,3 +67,49 @@ function back() {
     document.body.appendChild(button);
 
 }
+
+function eli(age) {
+    if (age >= 18) {
+        document.write("You are eligible to vote");
+    }
+    else {
+        document.write("You are not eligible to vote");
+    }
+}
+
+function grade(marks) {
+    if (marks >= 80) {
+        document.write("Grade A");
+    }
+    else if (marks >= 60) {
+        document.write("Grade B");
+    }
+    else if (marks >= 40) {
+        document.write("Grade C");
+    }
+    else if (marks >= 20) {
+        document.write("Grade D");
+    }
+    else {
+        document.write("Grade F");
+    }
+}
+
+function grade_switch(marks) {
+    switch (true) {
+        case (marks >= 80):
+            document.write("Grade A");
+            break;
+        case (marks >= 60):
+            document.write("Grade B");
+            break;
+        case (marks >= 40):
+            document.write("Grade C");
+            break;
+        case (marks >= 20):
+            document.write("Grade D");
+            break;
+        default:
+            document.write("Grade F");
+    }
+}
