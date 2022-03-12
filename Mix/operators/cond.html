@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- conditional statements in javascript 
+1 - if statement
+2 - if else statement
+3 - if else if statement
+4 - switch statement
+-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conditional Statements</title>
+    <link rel="stylesheet" href="/Mix/operators/op.css">
+    <script src="/Mix/operators/oper.js"></script>
+</head>
+
+<body class="opera">
+
+    <!-- write a program using if statement -->
+    <a href="/home.html">Main Home Page</a> <br><br>
+    <h3>If else - voting code</h3>
+
+    <input type="text" id="txtInput1" placeholder="Enter your age">
+
+    <button type="button" onclick="result1();">Do it</button>
+    <script type="text/javascript">
+        function result1() {
+            var age = document.getElementById("txtInput1").value;
+
+            eli(age);
+            document.write("<br> <br>");
+            back();
+        }
+    </script>
+
+    <br><br>
+
+    <h3>If else-if - Grade code</h3>
+    <input type="text" id="txtInput2" placeholder="Enter your marks">
+
+    <button type="button" onclick="result2();">Do it</button>
+    <script type="text/javascript">
+        function result2() {
+            var marks = document.getElementById("txtInput2").value;
+
+            grade(marks);
+            document.write("<br> <br>");
+            back();
+        }
+    </script>
+
+    <br><br>
+
+    <h3>switch - Grade code</h3>
+    <input type="text" id="txtInput3" placeholder="Enter your marks">
+
+    <button type="button" onclick="result3();">Do it</button>
+    <script type="text/javascript">
+        function result3() {
+            var marks = document.getElementById("txtInput3").value;
+
+            grade_switch(marks);
+            document.write("<br> <br>");
+            back();
+        }
+    </script>
+
+</body>
+
+</html>
