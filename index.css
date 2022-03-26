@@ -1,5 +1,3 @@
-/* Index.html start */
-
 .bg-dark {
   background-image: url(assets/kazuha.png);
   background-size: cover;
@@ -136,7 +134,7 @@ p {
   text-decoration: underline;
 }
 
-/* Index.html end */
+/* home.html end */
 
 .pr1 {
   /* min-height: 100vh; */
