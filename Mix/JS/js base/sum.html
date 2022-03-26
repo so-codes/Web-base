@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script type="text/javascript">
+        function sum() {
+            var n = parseInt(f1.t1.value);
+            var sum = rem = 0, dn = n;
+            while (n > 0) {
+                rem = n % 10;
+                sum = sum + rem;
+                n = parseInt(n / 10);
+            }
+            if (sum == dn) {
+                alert("The sum of the digits of " + dn + " is " + sum);
+            } else {
+                alert("The sum of the digits of " + dn + " is not " + sum);
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <form name="f1" action="" method="post">
+        <table>
+            <tr>
+                <td>Enter a number:</td>
+                <td><input type="text" name="t1" /></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="button" value="Submit" onclick="sum()" /></td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
