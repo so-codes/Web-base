@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pog</title>
+    <link rel="stylesheet" href="./body.css">
+
+    <style type="text/css">
+        .internal {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 100%;
+        }
+
+        .internal p {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: orangered;
+        }
+
+        .internal img {
+            width: 25%;
+            height: 25%;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="internal">
+        <nav>
+            <ul>
+                <li><a href="/home.html">Home</a></li>
+                <li><a href="/Mix/">Mix</a></li>
+            </ul>
+        </nav>
+        <h1>This is made using internal css</h1>
+        <p>This is made using internal css</p>
+        <img src="/assets/animeroad.jpg" alt="hi">
+    </div>
+
+    <div>
+        <nav style="padding-left: 635px;">
+            <ul>
+                <li><a href="/home.html">Home</a></li>
+                <li><a href="/Mix/">Mix</a></li>
+            </ul>
+        </nav>
+        <h1 style="color: red;" align="center">This is made using inline css</h1>
+        <p style="color: blue;" align="center">This is made using inline css</p>
+        <img src="/assets/animeroad.jpg" alt="hi" width="25%" height="25%" style="padding-left: 635px;">
+    </div>
+
+    <div class="external">
+        <nav>
+            <ul>
+                <li><a href="/home.html">Home</a></li>
+                <li><a href="/Mix/">Mix</a></li>
+            </ul>
+        </nav>
+        <h1>This is made using external css</h1>
+        <p>This is made using external css</p>
+        <img src="/assets/animeroad.jpg" alt="hi" width="25%" height="25%">
+    </div>
+
+</body>
+
+</html>
