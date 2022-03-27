@@ -1,0 +1,53 @@
+.bg-dark {
+  background-image: url(/assets/kazuha.png);
+  background-size: cover;
+  position: relative;
+}
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap");
+.navbar-brand {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.row {
+  text-align: center;
+}
+
+.container-1 {
+  margin-bottom: 50px;
+}
+.bg-grey {
+  background-color: #23272ab3;
+}
+.card {
+  border-width: 0px;
+  border-radius: 25px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.brand-line {
+  font-family: "Montserrat", sans-serif;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  color: black;
+}
+.card-body {
+  background-color: #23272ab3;
+  border-radius: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-help-list {
+    padding-left: 10px;
+  }
+}
+
+@media screen and (max-width: 1450px) {
+  .nav-help-list {
+    padding-left: 60px;
+  }
+}
