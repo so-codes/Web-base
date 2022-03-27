@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fact & Fibo</title>
+
+    <script type="text/javascript">
+        function fact() {
+            var num = document.f1.t1.value;
+            var fact = 1;
+            for (var i = 1; i <= num; i++) {
+                fact = fact * i;
+            }
+            document.f1.t2.value = fact;
+        }
+
+        function fibo() {
+            var num = document.f1.t3.value;
+            var fib = [0, 1];
+            for (var i = 2; i <= num; i++) {
+                fib[i] = fib[i - 1] + fib[i - 2];
+            }
+            document.f1.t4.value = fib[num];
+        }
+    </script>
+</head>
+
+<body>
+    <form name="f1" action="" method="post">
+        <table>
+            <tr>
+                <td>Enter number:</td>
+                <td><input type="text" name="t1" /></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="button" value="Submit" onclick="fact();" /></td>
+            </tr>
+            <tr>
+                <td>Factorial:</td>
+                <td><input type="text" name="t2" /></td>
+            </tr>
+        </table>
+        <br><br>
+        <table>
+            <tr>
+                <td>Enter number:</td>
+                <td><input type="text" name="t3" /></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="button" value="Submit" onclick="fibo();" /></td>
+            </tr>
+            <tr>
+                <td>Fibonacci:</td>
+                <td><input type="text" name="t4" /></td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
