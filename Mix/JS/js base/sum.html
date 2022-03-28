@@ -17,9 +17,11 @@
                 n = parseInt(n / 10);
             }
             if (sum == dn) {
-                alert("The sum of the digits of " + dn + " is " + sum);
+                // alert("The sum of the digits of " + dn + " is " + sum);
+                f1.t2.value = sum;
             } else {
-                alert("The sum of the digits of " + dn + " is not " + sum);
+                // alert("The sum of the digits of " + dn + " is not " + sum);
+                f1.t2.value = sum;
             }
         }
     </script>
@@ -35,6 +37,10 @@
             <tr>
                 <td></td>
                 <td><input type="button" value="Submit" onclick="sum()" /></td>
+            </tr>
+            <tr>
+                <td>Sum is :</td>
+                <td><input type="text" name="t2" /></td>
             </tr>
         </table>
     </form>
