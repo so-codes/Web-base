@@ -31,3 +31,6 @@ function back() {
     }
     document.body.appendChild(button);
 }
+
+// calculator
+
