@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <script type="text/javascript">
+        function calc() {
+            var n = parseInt(f1.t1.value);
+            var n2 = parseInt(f1.t2.value);
+            console.log(n);
+            console.log(n2);
+            var op = f1.t3.value;
+            console.log(op);
+            var res = 0;
+
+            if (op == "+") {
+                res = n + n2;
+                f1.t4.value = res;
+            } else if (op == "-") {
+                res = n - n2;
+                f1.t4.value = res;
+            } else if (op == "*") {
+                res = n * n2;
+                f1.t4.value = res;
+            } else if (op == "/") {
+                res = n / n2;
+                f1.t4.value = res;
+            }
+            
+        }   
+    </script>
+</head>
+<body>
+    <h2>Calculator</h2>
+    <form name="f1" action="" method="post">
+        <table>
+            <tr>
+                <td>Enter number 1: </td>
+                <td><input type="text" name="t1" /></td>
+            </tr>
+            <tr>
+                <td>Enter number 2: </td>
+                <td><input type="text" name="t2" /></td>
+            </tr>
+            <tr>
+                <td>Enter operator: </td>
+                <td><input type="text" name="t3" /></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="button" value="Submit" onclick="calc()" /></td>
+            </tr>
+            <tr>
+                <td>Result: </td>
+                <td><input type="text" name="t4" /></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
