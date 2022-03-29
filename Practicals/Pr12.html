@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Words</title>
+
+    <script type="text/javascript">
+        function words() {
+            var count = 0, space, i;
+            var sentence = f1.t1.value;
+            for (i = 0; i < sentence.length; i++) {
+                space = sentence.charAt(i);
+                if (space == " ") {
+                    count++;
+                }
+            }
+            f1.t2.value = count + 1;
+        }
+    </script>
+</head>
+
+<body>
+    <form name="f1" action="" method="post">
+        <table>
+            <tr>
+                <td>Enter a sentence:</td>
+                <td><input type="text" name="t1" /></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="button" value="Submit" onclick="words()" /></td>
+            </tr>
+            <tr>
+                <td>Number of words:</td>
+                <td><input type="text" name="t2" /></td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
