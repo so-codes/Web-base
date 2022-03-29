@@ -137,67 +137,37 @@ p {
 /* home.html end */
 
 .pr1 {
-  /* min-height: 100vh; */
-  width: 100%;
-  background-image: linear-gradient(rgba(4, 8, 30, 0.7), rgba(4, 8, 30, 0.7)),
-    url(assets/back.gif);
-  background-repeat: no-repeat;
-  background-position: center;
+  background-image: url(assets/kazuha.png);
   background-size: cover;
   position: relative;
 }
 
-.pr2 {
-  /* min-height: 100vh; */
-  width: 100%;
-  background-image: linear-gradient(rgba(4, 8, 30, 0.7), rgba(4, 8, 30, 0.7)),
-    url(assets/gundam.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
+.pr2_A {
+  background-image: url(assets/kazuha.png);
   background-size: cover;
   position: relative;
 }
 
-.pr3 {
-  /* min-height: 100vh; */
-  width: 100%;
-  background-image: linear-gradient(rgba(4, 8, 30, 0.7), rgba(4, 8, 30, 0.7)),
-    url(assets/yellow.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
+.pr2_B {
+  background-image: url(assets/kazuha.png);
   background-size: cover;
   position: relative;
 }
 
 .pr5 {
-  /* min-height: 100vh; */
-  width: 100%;
-  background-image: linear-gradient(rgba(4, 8, 30, 0.7), rgba(4, 8, 30, 0.7)),
-    url(assets/itachi.png);
-  background-repeat: no-repeat;
-  background-position: center;
+  background-image: url(assets/kazuha.png);
   background-size: cover;
   position: relative;
 }
 
 .yeet {
-  /* min-height: 100vh; */
-  width: 100%;
-  background-image: linear-gradient(rgba(4, 8, 30, 0.7), rgba(4, 8, 30, 0.7)),
-    url(assets/carback.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
+  background-image: url(assets/kazuha.png);
   background-size: cover;
   position: relative;
 }
 
 .input {
-  /* min-height: 100vh; */
-  width: 100%;
-  background-image: linear-gradient(rgba(4, 8, 30, 0.7), rgba(4, 8, 30, 0.7)),
-    url(assets/gundam.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
+  background-image: url(assets/kazuha.png);
   background-size: cover;
   position: relative;
 }
