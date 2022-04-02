@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practical 15</title>
+
+    <script type="text/javascript">
+        // array code
+        function array_ex() {
+            document.write("------------------------  Array Example  ------------------------<br>");
+            var colors = ["red", "blue", "green"];
+            document.write("<br> Array Example <br> <br>");
+            for (var i = 0; i < colors.length; i++) {
+                document.write(colors[i] + "<br>");
+            }
+            document.write("<br>-----------------------------------------------------<br>");
+        }
+
+        function boolean_ex() {
+            document.write("<br>---------------------  Boolean Example  ----------------------<br><br>");
+            var b = new Boolean(0);
+            document.write("Boolean(0) is : " + b + "<br>");
+
+            var b1 = new Boolean(null);
+            document.write("Boolean(null) is : " + b1 + "<br>");
+
+            var b2 = new Boolean(NaN);
+            document.write("Boolean(NaN) is : " + b2 + "<br>");
+
+            var b3 = new Boolean(undefined);
+            document.write("Boolean(undefined) is : " + b3 + "<br>");
+
+            var b4 = new Boolean(Boolean);
+            document.write("Boolean(Boolean) is : " + b4 + "<br>");
+
+            var b5 = new Boolean(false);
+            document.write("Boolean(false) is : " + b5 + "<br>");
+
+            var b6 = new Boolean(45);
+            document.write("Boolean(45) is : " + b6 + "<br>");
+
+            var b7 = new Boolean(1);
+            document.write("Boolean(1) is : " + b7 + "<br>");
+
+            var b8 = new Boolean("");
+            document.write("Boolean('') is : " + b8 + "<br>");
+            document.write("<br>-----------------------------------------------------<br>");
+        }
+
+        function date_ex() {
+            document.write("<br>---------------------  Date Example  ----------------------<br><br>");
+            var d = new Date();
+            document.write("The current date is " + d.getDate() + "/" + (d.getMonth() + 1) + "/" + d.getFullYear() + "<br>");
+            document.write("<br>- - - - - - -<br>");
+            document.write("Month is " + d.getMonth() + "<br>");
+            document.write("Day is " + d.getDay() + "<br>");
+            document.write("Hours is " + d.getHours() + "<br>");
+            document.write("Minutes is " + d.getMinutes() + "<br>");
+            document.write("Seconds is " + d.getSeconds() + "<br>");
+            document.write("Milliseconds is " + d.getMilliseconds() + "<br>");
+            document.write("Time is " + d.getTime() + "<br>");
+            document.write("Timezone offset is " + d.getTimezoneOffset() + "<br>");
+            document.write("<br>-----------------------------------------------------<br>");
+        }
+
+        function math_ex() {
+            document.write("<br>---------------------  Math Example  ----------------------<br><br>");
+            document.write("Math.SQRT2 = " + Math.SQRT2 + "<br>");
+            document.write("Math.PI= " + Math.PI + "<br>");
+            document.write("Math.E= " + Math.E + "<br>");
+            document.write("Math.LOG10E= " + Math.LOG10E + "<br>");
+            document.write("Math.LOG2E= " + Math.LOG2E + "<br>");
+            document.write("Math.LN10= " + Math.LN10 + "<br>");
+            document.write("Math.LN2= " + Math.LN2 + "<br>");
+            document.write("Math.SQRT1_2= " + Math.SQRT1_2 + "<br>");
+            document.write("Math.SQRT2= " + Math.SQRT2 + "<br>");
+            document.write("Math.abs(-3)= " + Math.abs(-3) + "<br>");
+            document.write("Square root of 9 = " + Math.sqrt(9) + "<br>");
+            document.write("3 to the power of 2 = " + Math.pow(3, 2) + "<br>");
+            document.write("cosine of 10 = " + Math.cos(10) + "<br>");
+            document.write("sine of 10 = " + Math.sin(10) + "<br>");
+            document.write("tangent of 10 = " + Math.tan(10) + "<br>");
+            document.write("Absolute value of -1 = " + Math.abs(-1) + "<br>");
+            document.write("Round of 1.3 = " + Math.round(1.3) + "<br>");
+            document.write("<br>-----------------------------------------------------<br>");
+        }
+    </script>
+</head>
+
+<body>
+    <script type="text/javascript">
+        array_ex();
+        boolean_ex();
+        date_ex();
+        math_ex();
+    </script>
+</body>
+
+</html>
