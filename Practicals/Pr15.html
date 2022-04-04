@@ -8,7 +8,6 @@
     <title>Practical 15</title>
 
     <script type="text/javascript">
-        // array code
         function array_ex() {
             document.write("------------------------  Array Example  ------------------------<br>");
             var colors = ["red", "blue", "green"];
@@ -65,6 +64,15 @@
             document.write("Timezone offset is " + d.getTimezoneOffset() + "<br>");
             document.write("<br>-----------------------------------------------------<br>");
         }
+        
+        function fn(){
+            document.write("<br>---------------------  Function Example  ----------------------<br><br>");
+            function add(a, b) {
+                return a + b;
+            }
+            document.write("Addition of 2 and 3 is " + add(2, 3) + "<br>");
+            document.write("<br>-----------------------------------------------------<br>");
+        }
 
         function math_ex() {
             document.write("<br>---------------------  Math Example  ----------------------<br><br>");
@@ -87,6 +95,79 @@
             document.write("Round of 1.3 = " + Math.round(1.3) + "<br>");
             document.write("<br>-----------------------------------------------------<br>");
         }
+
+        function number() {
+            document.write("<br>---------------------  Number Example  ----------------------<br><br>");
+            var num = new Number(10);
+            document.write("Number(10) is : " + num + "<br>");
+
+            var num1 = new Number(null);
+            document.write("Number(null) is : " + num1 + "<br>");
+
+            var num2 = new Number(NaN);
+            document.write("Number(NaN) is : " + num2 + "<br>");
+
+            var num3 = new Number(undefined);
+            document.write("Number(undefined) is : " + num3 + "<br>");
+
+            var num4 = new Number(Boolean);
+            document.write("Number(Boolean) is : " + num4 + "<br>");
+
+            var num5 = new Number(false);
+            document.write("Number(false) is : " + num5 + "<br>");
+
+            var num6 = new Number(45);
+            document.write("Number(45) is : " + num6 + "<br>");
+
+            var num7 = new Number(1);
+            document.write("Number(1) is : " + num7 + "<br>");
+
+            var num8 = new Number("");
+            document.write("Number('') is : " + num8 + "<br>");
+            document.write("<br>-----------------------------------------------------<br>");
+        }
+
+        function object() {
+            var obj = new Object();
+            document.write("<br>---------------------  Object Example  ----------------------<br><br>");
+            obj.name = "John";
+            obj.age = 30;
+            obj.game = "Cricket";
+            obj.getName = function () {
+                return this.name;
+            };
+
+            document.write("Name is " + obj.getName() + "<br>");
+            document.write("Age is " + obj.age + "<br>");
+            document.write("Fav Game is " + obj.game + "<br>");
+            document.write("<br>-------------------------------------------------------------------<br>");
+        }
+
+        function string() {
+            document.write("<br>---------------------  String Example  ----------------------<br><br>");
+            var str = "Hello World";
+            document.write("String is " + str + "<br>");
+            document.write("Length of string is " + str.length + "<br>");
+            document.write("Index of 'l' is " + str.indexOf('l') + "<br>");
+            document.write("Index of 'l' from last is " + str.lastIndexOf('l') + "<br>");
+            document.write("Substring from 2nd index to 5th index is " + str.substring(2, 5) + "<br>");
+            document.write("Substring from 2nd index to end is " + str.substring(2) + "<br>");
+            document.write("Substring from start to 5th index is " + str.substring(0, 5) + "<br>");
+            document.write("<br>-------------------------------------------------------------------<br>");
+        }
+
+        function regExp() {
+            document.write("<br>---------------------  Regular Expression Example  ----------------------<br><br>");
+            var str = "Hello World";
+            var patt = /Hello/;
+            var at = "@";
+            var result = patt.test(str);
+            document.write("String is " + str + "<br>");
+            document.write("Pattern is " + patt + "<br>");
+            document.write("Sign is " + at + "<br>");
+            document.write("Result is " + result + "<br>");
+            document.write("<br>-------------------------------------------------------------------<br>");
+        }
     </script>
 </head>
 
@@ -95,7 +176,12 @@
         array_ex();
         boolean_ex();
         date_ex();
+        fn();
         math_ex();
+        number();
+        object();
+        string();
+        regExp();
     </script>
 </body>
 
