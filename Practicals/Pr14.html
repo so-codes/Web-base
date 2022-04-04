@@ -30,12 +30,55 @@
             i++;
         } while (i < 10);
 
-        document.write("<br> for each loop: <br>");
-        var colors = ["red", "blue", "green"];
-        for (var i = 0; i < colors.length; i++) {
-            document.write(colors[i] + "<br>");
+
+        document.write("<br><br> Switch case: <br>");
+        var day = prompt("Enter the day");
+        switch (day) {
+            case "monday":
+                document.write("Today is Monday");
+                break;
+            case "tuesday":
+                document.write("Today is Tuesday");
+                break;
+            case "wednesday":
+                document.write("Today is Wednesday");
+                break;
+            case "thursday":
+                document.write("Today is Thursday");
+                break;
+            case "friday":
+                document.write("Today is Friday");
+                break;
+            case "saturday":
+                document.write("Today is Saturday");
+                break;
+            case "sunday":
+                document.write("Today is Sunday");
+                break;
+            default:
+                document.write("Invalid day");
         }
 
+        document.write("<br><br> If , else if & else statement: <br>");
+        var a = 5;
+        var b = 10;
+
+        if (a > b) {
+            document.write("a is greater than b");
+        } else if (a == b) {
+            document.write("a is equal to b");
+        } else {
+            document.write("a is less than b");
+        }
+
+        document.write("<br><br> Ternary operator: <br>");
+        var a = 5;
+        var b = 10;
+
+        document.write("a is greater than b: " + (a > b ? "true" : "false"));
+        
+
+        
     </script>
 </body>
 
