@@ -30,6 +30,23 @@
             i++;
         } while (i < 10);
 
+        document.write("<br><br> For in loop: <br>");
+        var person = {
+            name: "Tejas",
+            age: 30
+        };
+
+        for (var x in person) {
+            document.write(x + ": " + person[x] + "<br>");
+        }
+
+        document.write("<br><br> For each loop: <br>");
+        var person = ["Tejas", "Criz", "Pocky"];
+
+        person.forEach(function (value, index) {
+            index++;
+            document.write(index + ": " + value + "<br>");
+        });
 
         document.write("<br><br> Switch case: <br>");
         var day = prompt("Enter the day");
@@ -76,9 +93,8 @@
         var b = 10;
 
         document.write("a is greater than b: " + (a > b ? "true" : "false"));
-        
 
-        
+
     </script>
 </body>
 
