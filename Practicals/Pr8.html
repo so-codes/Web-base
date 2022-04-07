@@ -9,27 +9,47 @@
 
     <script type="text/javascript">
         function fact() {
-            var num = document.f1.t1.value;
+            var num = f1.t1.value;
             var fact = 1;
             for (var i = 1; i <= num; i++) {
                 fact = fact * i;
             }
-            document.f1.t2.value = fact;
+            f1.t2.value = fact;
         }
 
         function fibo() {
-            var num = document.f1.t3.value;
-            var fib = [0, 1];
-            for (var i = 2; i <= num; i++) {
-                fib[i] = fib[i - 1] + fib[i - 2];
+            var n1 = 0, n2 = 1, next_num, i;
+
+            var num = parseInt(prompt(" Enter the limit for Fibonacci Series "));
+
+            document.write("Fibonacci Series: ");
+            for (i = 1; i <= num; i++) {
+                document.write(" <br> " + n1);   // 0
+                next_num = n1 + n2;              // 1
+                n1 = n2;                         // 1 
+                n2 = next_num;                   // 1
             }
-            document.f1.t4.value = fib[num];
         }
     </script>
 </head>
 
 <body>
-    <form name="f1" action="" method="post">
+
+    <form name="f1" action="">
+        <h3>Enter number:</h3>
+        <input type="text" name="t1" />
+
+        <input type="button" value="Submit" onclick="fact();" />
+
+        <h3>Factorial:</h3>
+        <input type="text" name="t2" />
+
+        <h3>Fibonacci:</h3>
+        <input type="button" value="Submit" onclick="fibo();" />
+    </form>
+
+
+    <!-- <form name="f1" action="" method="post">
         <table>
             <tr>
                 <td>Enter number:</td>
@@ -59,7 +79,7 @@
                 <td><input type="text" name="t4" /></td>
             </tr>
         </table>
-    </form>
+    </form> -->
 </body>
 
 </html>
