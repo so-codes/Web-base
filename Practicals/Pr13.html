@@ -11,20 +11,20 @@
             var n = parseInt(f1.t1.value);
             var n2 = parseInt(f1.t2.value);
             var op = f1.t3.value;
-            var res = 0;
+            var ans = 0;
 
             if (op == "+") {
-                res = n + n2;
-                f1.t4.value = res;
+                ans = n + n2;
+                f1.t4.value = ans;
             } else if (op == "-") {
-                res = n - n2;
-                f1.t4.value = res;
+                ans = n - n2;
+                f1.t4.value = ans;
             } else if (op == "*") {
-                res = n * n2;
-                f1.t4.value = res;
+                ans = n * n2;
+                f1.t4.value = ans;
             } else if (op == "/") {
-                res = n / n2;
-                f1.t4.value = res;
+                ans = n / n2;
+                f1.t4.value = ans;
             }
 
         }
@@ -34,20 +34,20 @@
             var n2 = document.getElementById("num2").value;
             var op = document.getElementById("op").value;
 
-            var res = 0;
+            var ans = 0;
 
             if (op == "+") {
-                res = parseInt(n) + parseInt(n2);
-                f1.t5.value = res;
+                ans = parseInt(n) + parseInt(n2);
+                f1.t5.value = ans;
             } else if (op == "-") {
-                res = parseInt(n) - parseInt(n2);
-                f1.t5.value = res;
+                ans = parseInt(n) - parseInt(n2);
+                f1.t5.value = ans;
             } else if (op == "*") {
-                res = parseInt(n) * parseInt(n2);
-                f1.t5.value = res;
+                ans = parseInt(n) * parseInt(n2);
+                f1.t5.value = ans;
             } else if (op == "/") {
-                res = parseInt(n) / parseInt(n2);
-                f1.t5.value = res;
+                ans = parseInt(n) / parseInt(n2);
+                f1.t5.value = ans;
             }
         }   
     </script>
@@ -76,7 +76,7 @@
                 <td><input type="button" value="Submit" onclick="calc()" /></td>
             </tr>
             <tr>
-                <td>Result: </td>
+                <td>ansult: </td>
                 <td><input type="text" name="t4" /></td>
             </tr>
         </table>
@@ -137,7 +137,7 @@
             </tr>
             <br>
             <tr>
-                <td>Result: </td>
+                <td>ansult: </td>
                 <td><input type="text" name="t5" /></td>
             </tr>
         </table>
