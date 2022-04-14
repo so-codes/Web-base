@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script type="text/javascript">
+        function palindrome() {
+            var n = f.pali.value;
+            var len = n.length;
+            var i, j, temp;
+            for (i = 0, j = len - 1; i < j; i++, j--) {
+                if (n[i] != n[j]) {
+                    f.ans.value = "Not a palindrome";
+                    return;
+                }
+            }
+            f.ans.value = "Palindrome";
+        }
+    </script>
+</head>
+
+<body>
+    <form action="" method="post" name="f">
+        <h2>Enter a string</h2>
+        <input type="text" name="pali" id="plaindrome">
+        <input type="button" value="submit" onclick="palindrome()">
+
+        Answer: <input type="text" name="ans" id="ans">
+    </form>
+</body>
+
+</html>
