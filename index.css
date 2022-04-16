@@ -149,12 +149,11 @@ p {
 }
 
 .list {
-  /* min-height: 100vh; */
-  width: 100%;
-  background-image: linear-gradient(rgba(4, 8, 30, 0.7), rgba(4, 8, 30, 0.7)),
-    url(assets/urban-ninja-anime-art.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
+  background-image: url(assets/urban-ninja-anime-art.jpg);
   background-size: cover;
   position: relative;
+}
+
+.list p {
+  color: orangered;
 }
