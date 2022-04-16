@@ -136,37 +136,13 @@ p {
 
 /* home.html end */
 
-.pr1 {
-  background-image: url(assets/kazuha.png);
-  background-size: cover;
-  position: relative;
-}
-
-.pr2_A {
-  background-image: url(assets/kazuha.png);
-  background-size: cover;
-  position: relative;
-}
-
-.pr2_B {
-  background-image: url(assets/kazuha.png);
-  background-size: cover;
-  position: relative;
-}
-
-.pr5 {
-  background-image: url(assets/kazuha.png);
-  background-size: cover;
-  position: relative;
-}
-
-.yeet {
-  background-image: url(assets/kazuha.png);
-  background-size: cover;
-  position: relative;
-}
-
-.input {
+.pr1 ,
+.pr2_A ,
+.pr2_B ,
+.pr5 ,
+.yeet,
+.input 
+{
   background-image: url(assets/kazuha.png);
   background-size: cover;
   position: relative;
