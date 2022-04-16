@@ -17,14 +17,6 @@
   margin-top: 50px;
 }
 
-.prpr aside h3 {
-  text-align: center;
-}
-
-.prpr aside p {
-  text-align: center;
-}
-
 .prpr article {
   background: grey;
   border-bottom: 5px solid black;
@@ -33,11 +25,11 @@
   border-radius: 5px;
 }
 
-.prpr article h3 {
-  text-align: center;
-}
-
-.prpr article p {
+.prpr aside p ,
+.prpr aside h3 ,
+.prpr article h3 ,
+.prpr article p 
+{
   text-align: center;
 }
 
