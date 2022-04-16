@@ -26,15 +26,14 @@
         document.write("a = " + (a > b ? a : b));
         document.write("<br>b = " + (a > b ? b : a));
 
-        max = (a < b ? b : a);
-        ans = (a > b) ? (a - b) : (b - a);
+        max = (a < b ? b : a);     // If a is less than b, then b is assigned to max.
+        ans = (a > b) ? (a - b) : (b - a);   // If a is greater than b, then a - b is assigned to ans.
         document.write("<br>max = " + max);
         document.write("<br>ans = " + ans);
 
     </script>
 
     <br><br>
-
 
     <input type="text" id="txtInput1" placeholder="Value of a">
     <input type="text" id="txtInput2" placeholder="Value of b">
