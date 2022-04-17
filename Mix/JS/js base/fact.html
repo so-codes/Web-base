@@ -25,6 +25,20 @@
             }
             document.f1.t4.value = fib[num];
         }
+
+        function mainfibo() {
+            const number = document.f1.t3.value;
+            let n1 = 0, n2 = 1, nextTerm;
+
+            console.log('Fibonacci Series:');
+
+            for (let i = 1; i <= number; i++) {
+                console.log(n1);
+                nextTerm = n1 + n2;  // next term = 0 + 1
+                n1 = n2;             // 0 = 1
+                n2 = nextTerm;       // 1 = 1 
+            }
+        }
     </script>
 </head>
 
@@ -52,7 +66,7 @@
             </tr>
             <tr>
                 <td></td>
-                <td><input type="button" value="Submit" onclick="fibo();" /></td>
+                <td><input type="button" value="Submit" onclick="mainfibo();" /></td>
             </tr>
             <tr>
                 <td>Fibonacci:</td>
