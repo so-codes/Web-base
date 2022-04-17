@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+</head>
+
+<body>
+    <!-- on click -->
+    <button onclick="alert('You clicked me')">Click me</button>
+
+    <br> <br>
+
+    <!-- on focus -->
+    <input type="text" onfocus="alert('You focused me')">
+
+    <br> <br>
+
+    <!-- on mouse over -->
+
+    <script type="text/javascript">
+        var a = 1;
+    </script>
+
+    <button onmouseover="console.log(a++)">Increment</button>
+
+    <br> <br>
+
+    <!-- on load -->
+    <button onload="alert('hi')">hi</button>
+
+    <br> <br>
+
+    <!-- on error -->
+    <script type="text/javascript">
+        var a = 1;
+
+        if (a == 1) {
+            throw new Error("Error");
+        }
+    </script>
+
+    <button onerror="console.log(a++)">Increment</button>
+</body>
+
+</html>
